@@ -7,36 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bioteknologi 9A Raka</title>
 
+    <style>
+        nav {
+            background-color: #333;
+            padding: 30px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        a:hover {
+            color: yellow;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 15vh;
+        }
+
+        .box {
+            background-color: white;
+            width: 90%;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+            border-bottom: 2px solid gray;
+            padding-bottom: 60px;
+        }
+
+        hr {
+    border: none;
+    height: 10px;
+    background: none;
+}
+
+    </style>
 
 </head>
 
-<body bgcolor="lightblue">
-
-<!-- Izin yaa pa adi aku pake kode navbar aja. Ceritanya bonus buat pa adi :D -->
-        <table bgcolor="gray" width="100%">
-            <tr>
-                <td>
-                    <nav> 
-                        <ul>    <center>
-                            <li><a href="#beranda"><font color="white">Bioteknologi_Pembuatan_Roti</font></a></li>
-                            <li><a href="#Tentang"><font color="white">Tentang_pembuat_website</font></a></li>
-                        </ul>        </center>
-                    </nav>
-                </td>
-            </tr>
-        </table>
-
-
-<br>
-<br>
+<body>
 
 <center>
-    <section id="beranda" class="box">
+<nav>
+        <ul>
+            <li><a href="#beranda">Bioteknologi_Pembuatan_Roti</a></li>
+            <li><a href="#Tentang">Tentang_pembuat_website</a></li>
+        </ul>
+</nav>
+</center>
+
+<hr>
+<hr>
+
+<center>
+    <section id="beranda" class="box" style="background-color: lightblue;">
         <div>
             <h1>Bioteknologi Pembuatan Roti</h1>
             <p>Selamat datang di halaman utama tentang bioteknologi dalam pembuatan roti.</p>
 
-            <table border="1" width="500" bgcolor="white" >
+            <table border="1" width="500" style="background-color: antiquewhite;" >
 
                 <tr>
                   <td colspan="3"><center>Bioteknologi Roti</center></td>
@@ -62,11 +112,11 @@
                 </tr>
 
                 <tr>
-                  <td><li>Air  </li></td>
+                <td><li>Air  </li></td>
                 </tr>
                 
                 <tr>
-                  <td><li>Gula</li></td>
+                <td><li>Gula</li></td>
                 </tr>
                 
                 <tr>
@@ -205,18 +255,18 @@
     </section>
 </center>
 
-<br>
-<br>
+<hr>
+<hr>
 
 
 <center>
     <section id="Tentang" class="box" style="background-color: lightblue; ">
         <div>
                 <h1>Tentang pembuat website</h1>
-                <img height="50%" width="50%" src="https://cdn.discordapp.com/attachments/1345721180018970685/1346423680955056202/nk-image-edit-motivate-c2hml2cv.png?ex=67ca1c84&is=67c8cb04&hm=f10f0f3257deda40c481e7cd9a6945f2e50bcdd03d74a8509c572f14898bf903&" alt="">
+                <img height="50%" width="50%" src="https://cdn.discordapp.com/attachments/1345721180018970685/1346423680955056202/nk-image-edit-motivate-c2hml2cv.png?ex=67c8cb04&is=67c77984&hm=cdb0ee66a136f531a4b77d7d0be5912642980a093d78570ed530463ad7f1c28c&" alt="">
                 <p>Laki-laki Bernama Raka sabari pratama, lahir di bandung tanggal 22, bulan November, tahun 2009. Memiliki minat dalam hal tentang Menulis karena baginya menulis adalah cara untuk memahami lebih tentang makna dari kehidupannya, imajinasinya dan lebih memahami arti dari dirinya sendiri. Selain itu memiliki Keahlian di bidang Filosofi, Programing dan Desain gambar
-                    Dm <a href="mailto:Ruckishuman@gmail.com"><i><font color=""blue>Ruckishuman@gmail.com</font></i></a> Untuk lebih mengenal saya. Atau bisa ikuti saya di github sebagai  
-                    <a href="https://github.com/Ruckynothuman"><i><font color=""blue>Ruckynothuman</font></i></a>
+                    Dm <a style="color: blue;" href="mailto:Ruckishuman@gmail.com"><i>Ruckishuman@gmail.com</i></a> Untuk lebih mengenal saya. Atau bisa ikuti saya di github sebagai  
+                    <a style="color: blue;" href="https://github.com/Ruckynothuman"><i>Rucky</i></a>
                     <br>
                     <br>
                     <img height="20%" width="20%" src="https://cdn.nekotina.com/images/CRQhcDFfU.gif" alt="">
@@ -225,6 +275,7 @@
         </div>
     </section>
 </center>
+
 
 </body>
 
